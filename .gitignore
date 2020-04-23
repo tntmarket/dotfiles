@@ -1,3 +1,7 @@
 *
 !/karabiner/karabiner.json
+!/fish/functions/dave.fish
+!/fish/functions/dev.fish
+!/fish/functions/g.fish
+!/fish/config.fish
 !.gitignore
