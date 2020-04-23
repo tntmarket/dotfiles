@@ -6,4 +6,6 @@
 !/fish/config.fish
 !spacehammer.fnl
 !Keyboard Maestro Macros.kmsync
+!com.amethyst.Amethyst.plist
+!install.sh
 !.gitignore
