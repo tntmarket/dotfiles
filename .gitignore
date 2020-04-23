@@ -4,4 +4,5 @@
 !/fish/functions/dev.fish
 !/fish/functions/g.fish
 !/fish/config.fish
+!spacehammer.fnl
 !.gitignore
