@@ -1,11 +1,16 @@
 *
-!/karabiner/karabiner.json
+
 !/fish/functions/dave.fish
 !/fish/functions/dev.fish
 !/fish/functions/g.fish
 !/fish/config.fish
+
+!/alfred/**
+
+!/karabiner/karabiner.json
 !spacehammer.fnl
 !Keyboard Maestro Macros.kmsync
 !com.amethyst.Amethyst.plist
+
 !install.sh
 !.gitignore

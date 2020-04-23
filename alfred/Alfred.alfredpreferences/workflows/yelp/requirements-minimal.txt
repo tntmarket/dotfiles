@@ -1,0 +1,4 @@
+addict
+Alfred-Workflow
+beautifulsoup4
+requests
