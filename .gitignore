@@ -6,6 +6,7 @@
 !/fish/config.fish
 
 !/alfred/**
+!/vim/**
 
 !/karabiner/karabiner.json
 !spacehammer.fnl
