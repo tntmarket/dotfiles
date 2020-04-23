@@ -4,16 +4,16 @@
 !/fish/functions/dev.fish
 !/fish/functions/g.fish
 !/fish/config.fish
+!/iterm2/**
+!/vim/**
+!.gitconfig
 
 !/alfred/**
-!/vim/**
 
 !/karabiner/karabiner.json
 !spacehammer.fnl
 !Keyboard Maestro Macros.kmsync
 !com.amethyst.Amethyst.plist
-
-!.gitconfig
 
 !install.sh
 !.gitignore
