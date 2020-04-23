@@ -5,4 +5,5 @@
 !/fish/functions/g.fish
 !/fish/config.fish
 !spacehammer.fnl
+!Keyboard Maestro Macros.kmsync
 !.gitignore
