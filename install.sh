@@ -1,8 +1,8 @@
 #! /bin/sh
 
-cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
-cp spacehammer.fnl ~/.spacehammer/config.fnl
-cp ~/.gitconfig ~/.gitconfig
+ln -s `pwd` com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
+ln -s `pwd`/spacehammer.fnl ~/.spacehammer/config.fnl
+ln -s `pwd`/.gitconfig ~/.gitconfig
 
 
 #######################################################################

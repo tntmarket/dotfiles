@@ -43,9 +43,6 @@ Plug 'vim-scripts/Gundo'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 
-Plug 'majutsushi/tagbar'
-   noremap <silent> <F7> :TagbarToggle<CR>
-
 Plug 'bling/vim-airline'
    " let g:airline_left_sep = ''
    " let g:airline_left_alt_sep = ''
@@ -60,7 +57,6 @@ Plug 'int3/vim-extradite'
 Plug 'vim-scripts/gitignore'
 
 Plug 'jgdavey/tslime.vim'
-Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'dag/vim-fish'
 
@@ -70,7 +66,7 @@ filetype plugin indent on
 source $HOME/.vim/generic.vim
 source $HOME/.vim/color.vim
 source $HOME/.vim/git.vim
-source $HOME/.vim/tmux.vim
-source $HOME/.vim/haskell.vim
-" source $HOME/.home.vim
+
+vmap <silent> <F5> <Plug>SendSelectionToTmux
+nmap <silent> <F5> <Plug>NormalModeSendToTmux
 

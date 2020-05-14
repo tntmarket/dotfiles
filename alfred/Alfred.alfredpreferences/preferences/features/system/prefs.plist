@@ -16,8 +16,6 @@
 	<false/>
 	<key>shutdownConfirm</key>
 	<true/>
-	<key>sleepKeywordEnabled</key>
-	<false/>
 	<key>sleepdisplaysKeywordEnabled</key>
 	<false/>
 </dict>

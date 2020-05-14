@@ -10,3 +10,6 @@ set GIT_MERGE_AUTOEDIT no
 set EDITOR /usr/local/bin/vim
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+# Created by `userpath` on 2020-05-05 09:37:48
+set PATH $PATH /Users/davelu/.local/bin
