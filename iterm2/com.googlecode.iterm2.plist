@@ -288,6 +288,48 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x48-0xa0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>47</integer>
+			<key>Text</key>
+			<string>0</string>
+		</dict>
+		<key>0x4a-0x120000</key>
+		<dict>
+			<key>Action</key>
+			<integer>50</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x4a-0xa0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>48</integer>
+			<key>Text</key>
+			<string>2</string>
+		</dict>
+		<key>0x4b-0x120000</key>
+		<dict>
+			<key>Action</key>
+			<integer>49</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x4b-0xa0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>47</integer>
+			<key>Text</key>
+			<string>2</string>
+		</dict>
+		<key>0x4c-0xa0000</key>
+		<dict>
+			<key>Action</key>
+			<integer>48</integer>
+			<key>Text</key>
+			<string>0</string>
+		</dict>
 		<key>0x54-0x60000</key>
 		<dict>
 			<key>Action</key>
@@ -316,12 +358,26 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x68-0x80000</key>
+		<dict>
+			<key>Action</key>
+			<integer>45</integer>
+			<key>Text</key>
+			<string>0</string>
+		</dict>
 		<key>0x6a-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>21</integer>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0x6a-0x80000</key>
+		<dict>
+			<key>Action</key>
+			<integer>46</integer>
+			<key>Text</key>
+			<string>2</string>
 		</dict>
 		<key>0x6b-0x100000</key>
 		<dict>
@@ -330,12 +386,26 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x6b-0x80000</key>
+		<dict>
+			<key>Action</key>
+			<integer>45</integer>
+			<key>Text</key>
+			<string>2</string>
+		</dict>
 		<key>0x6c-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>19</integer>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0x6c-0x80000</key>
+		<dict>
+			<key>Action</key>
+			<integer>46</integer>
+			<key>Text</key>
+			<string>0</string>
 		</dict>
 		<key>0x73-0x100000</key>
 		<dict>
@@ -529,9 +599,9 @@
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>2504 319 616 174 1920 -455 1200 1897 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>2520 -56 400 129 1920 -686 1200 1897 </string>
+	<string>2560 -588 400 129 2560 -801 1440 2560 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>2210 442 620 392 1920 -686 1200 1897 </string>
+	<string>2970 825 620 392 2560 -801 1440 2560 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>2189 -266 606 469 1920 -405 1200 1897 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -539,7 +609,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1991 858 592 584 1920 -455 1200 1897 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2560 -771 1440 1267 2560 -784 1440 2560 </string>
+	<string>2560 -801 1440 2560 2560 -801 1440 2560 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1120 -900 1440 900 1120 -900 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2011,17 +2081,18 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.6</string>
-		<string>3.3.8</string>
-		<string>3.3.0</string>
-		<string>3.3.1</string>
-		<string>3.3.3</string>
 		<string>3.3.5</string>
-		<string>3.3.7</string>
+		<string>3.3.3</string>
+		<string>3.3.1</string>
+		<string>3.3.8</string>
+		<string>3.3.6</string>
+		<string>3.3.11</string>
+		<string>3.3.4</string>
+		<string>3.3.2</string>
 		<string>3.3.9</string>
 		<string>3.2.9</string>
-		<string>3.3.2</string>
-		<string>3.3.4</string>
+		<string>3.3.0</string>
+		<string>3.3.7</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
@@ -2038,9 +2109,9 @@
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{2560, -784}, {1440, 2560}}</string>
+		<string>{{2560, -801}, {1440, 2560}}</string>
 		<key>topLeft</key>
-		<string>{2829, -189}</string>
+		<string>{2829, -206}</string>
 	</dict>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -2058,7 +2129,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>490310371.22573</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>78</integer>
+	<integer>113</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2940,9 +3011,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-05-04T18:54:08Z</date>
+	<date>2020-06-10T20:15:06Z</date>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>2319487732</integer>
+	<integer>3821940105</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -3018,6 +3089,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.9</string>
+	<string>3.3.11</string>
 </dict>
 </plist>

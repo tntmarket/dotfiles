@@ -1,12 +1,6 @@
 set shell=/bin/bash
 set encoding=utf8
 
-" Source the vimrc file after saving it
-augroup sourcing
-  autocmd!
-  autocmd bufwritepost .vimrc source $MYVIMRC
-augroup END
-
 vmap <C-c> "+y
 vmap <C-x> "+c<ESC>
 
@@ -21,22 +15,12 @@ noremap  <C-z>      :undo<CR>
 vnoremap <C-z> <C-c>:undo<CR>
 inoremap <C-z> <C-o>:undo<CR>
 
-com! W w
-com! Q q
-com! QQ qall!
-cmap www w !sudo tee >/dev/null %
-
 
 " use indentation for folds
 set foldmethod=indent
 set foldnestmax=5
 set foldlevelstart=99
 set foldcolumn=0
-
-set colorcolumn=72
-
-" Sets how many lines of history VIM has to remember
-set history=700
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -59,7 +43,10 @@ set wildmode=list:longest,full
 
 " Always show current position
 set ruler
-set number
+
+" toggle hybrid line numbers
+:set number relativenumber
+:set nu rnu
 
 " Show trailing whitespace
 set list
@@ -112,8 +99,8 @@ set expandtab
 set smarttab
 set scrolloff=3
 set sidescrolloff=5
-set shiftwidth=3
-set tabstop=3
+set shiftwidth=4
+set tabstop=4
 set lbr
 set tw=500
 

@@ -3,8 +3,6 @@ filetype off
 set nocompatible
 call plug#begin('~/.vim/plugged')
 
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-
 Plug 'scrooloose/syntastic'
 
 Plug 'tpope/vim-commentary'

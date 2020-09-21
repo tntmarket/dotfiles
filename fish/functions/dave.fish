@@ -6,14 +6,11 @@ function dave
             set description $argv[2]
             if test (git_branch_name) = master
                echo "Creating new branch... $description"
-               __new_branch (__description_to_branch_name $description)
-            end
-            echo "Saving new work..."
-            if g save $description
-               if dev cmd "git config branch."(git_branch_name)".reviewnumber"
-                  dev cmd "git push origin HEAD && review-branch --publish --change-description \"$description\""
-               else
-                  dev cmd "git push origin HEAD && review-branch --publish"
+               if __new_branch (__description_to_branch_name $description)
+                  echo "Saving new work..."
+                  if g save $description
+                     dev cmd "git push origin HEAD"
+                  end
                end
             end
          else
@@ -22,7 +19,7 @@ function dave
             else
                echo "Amending previous work..."
                if g amend
-                  dev cmd "git push origin HEAD --force && review-branch --publish"
+                  dev cmd "git push origin HEAD --force"
                end
             end
          end
